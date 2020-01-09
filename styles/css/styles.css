@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-flow: column;
+}
+
+.header {
+  height: 6em;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px 20px 0px 20px;
+}
+
+.menu ul {
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  list-style: none;
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu a:hover {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: auto;
+  left: auto;
+  padding: 0;
+  border: 1px solid #F3F3E8;
+  box-shadow: 0px 0px 5px 1px #CCCCCC;
+}
+
+.menu ul ul li {
+  float: none;
+  width: 170px;
+}
+
+.menu ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+
+.login ul {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  font-family: "Varela Round", sans-serif;
+  list-style: none;
+  font-size: 15px;
+  padding: 15px 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.login ul ul {
+  display: none;
+  font-family: "Varela Round", sans-serif;
+  list-style: none;
+  position: absolute;
+  top: auto;
+  left: auto;
+  padding: 0;
+  border: 1px solid #F3F3E8;
+  box-shadow: 0px 0px 5px 1px #CCCCCC;
+}
+
+.login ul ul li {
+  float: none;
+  width: 170px;
+}
+
+.login ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+.login a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.login a:hover {
+  font-weight: bold;
+}
+
+.login ul li:hover > ul {
+  display: block;
+}
+
+.registro {
+  margin-right: auto;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  width: 150px;
+  line-height: 3em;
+  background-color: #2E64FE;
+  border: 1px solid white;
+  border-radius: 13px;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: inherit;
+}
+
+.content {
+  outline: 1px solid red;
+  flex: 1;
+}
+
+.aside {
+  outline: 1px solid blue;
+  flex: 0 0 25%;
+}
+
+.footer {
+  outline: 1px solid orange;
+  height: 6rem;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
