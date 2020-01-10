@@ -16,6 +16,7 @@ body {
     height: 6em;
     display: flex;
     align-items: center;
+    outline: 1px solid #CCCCCC;
 }
 
 
@@ -51,6 +52,7 @@ body {
     top: auto;
     left: auto;
     padding: 0;
+    background-color: #FFFFFF;
     border: 1px solid #F3F3E8;
     box-shadow: 0px 0px 5px 1px #CCCCCC;
 }
@@ -89,8 +91,9 @@ body {
     list-style: none;
     position: absolute;
     top: auto;
-    left: auto;
+    left: auto;background-color: #FFFFFF;
     padding: 0;
+
     border: 1px solid #F3F3E8;
     box-shadow: 0px 0px 5px 1px #CCCCCC;    
 }
@@ -141,7 +144,7 @@ body {
 }
 
 .content {
-    outline: 1px solid red;
+    // outline: 1px solid #CCCCCC;
     flex: 1;
 }
 
@@ -172,9 +175,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: auto;
     width: 100%;
     margin-top: auto;
+    padding: 15px 0px;
     background-color: #4790FF;
     font-family: $letra_titulos;
 }
@@ -222,3 +226,82 @@ body {
 .social-link.instagram {
     background-image: url('../../images/instagram_80.png');
 }
+
+/* Estilos de la página de registro de usuario en la aplicación. */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    padding: 30px 30px;
+    min-height: calc(150vh - 80px);
+    font-family: $letra_titulos;
+}
+
+.register__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #4790FF;
+    border-radius: 40px;
+    color: #000000;
+    padding: 20px 22px 20px;
+    min-height: 100%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+  
+.register__container--form {
+    display: flex;
+    flex-direction: column;
+    font-family: $letra_titulos;
+}
+  
+.register__container--register {
+    font-size: 14px;
+    font-family: $letra_titulos;
+}
+  
+.register__container--register a {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex; 
+    justify-content: center;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #4790FF;
+    font-family: $letra_titulos;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    outline: none;
+    height: 50px;
+    width: 300px;
+}
+
+::placeholder {
+    color: #4790FF;
+}
+
+.button {
+    background-color: rgba(71, 144, 255, 0.9);
+    border: 1px solid;
+    border-radius: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: $letra_titulos;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+  

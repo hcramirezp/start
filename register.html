@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+<!-- El encabezado de la página en que se incluye el logo de la empresa. Se asigna la clase header. -->
+    <header class="header">
+        <figure class="logo">
+            <img src="images/logo_start_white_red.png" alt="logo Start" height="51px" width="200px">
+        </figure>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">¿Por qué Start?</a>
+                    <ul>
+                        <li><a href="#">Cómo funciona</a></li>
+                        <li><a href="#">Nuestros clientes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Portafolio</a>
+                    <ul>
+                        <li><a href="#">Mantenimiento general</a></li>
+                        <li><a href="#">Soporte técnico</a></li>
+                        <li><a href="#">Obras civiles</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Soluciones</a></li>
+                <li><a href="#">Nuestra compañía</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>    
+        </nav>
+        <nav class="login">
+            <ul>
+                <li><a href="#">Iniciar Sesión</a>
+                    <ul>
+                        <li><a href="#">Usuarios</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Aliados</a></li>
+                    </ul>       
+                </li>
+            </ul>
+        </nav>        
+    </header>
+<!-- Se crea el formulario de registro de usuario, que incluye dos campos llamados "Nombre", "Correo" y "Contraseña" y el botón 
+    "Registrarme". También aparece un enlace con el texto "Iniciar sesión". Se asigna la clase register. -->
+    <section class="register">
+        <section class="register__container">
+            <h2 tabindex="0">Regístro de Usuarios</h2>
+            <form class="register__container--form">
+                <input aria-label="Nombre" class="input" type="text" placeholder="Nombre">
+                <input aria-label="Correo" class="input" type="text" placeholder="Correo">
+                <input aria-label="Contraseña" class="input" type="password" placeholder="Contraseña">
+                <button class="button">Registrarme</button>
+            </form>
+            <p class="register__container--register"><a href="/">Iniciar sesión</a></p>
+        </section>
+    </section>
+<!-- Se crea un footer para la página, el cual incluye tres enlaces correspondientes a "Términos de uso", "Declaración
+    de privacidad" y "Centro de ayuda". Se asigna la clase footer. De igual forma se incluyen accesos a sitios de redes
+    sociales.-->
+    <footer class="footer">
+        <div>
+            <a href="/">Términos de uso</a>
+            <a href="/">Declaración de privacidad</a>
+            <a href="/">Centro de ayuda</a>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/servtacyasrectec" class="social-link twitter"></a>
+            <a href="https://facebook.com/servtacyasrectec" class="social-link facebook"></a>
+            <a href="https://linkedin.com/servtacyasrectec" class="social-link linkedin"></a>
+            <a href="https://instagram.com/servtacyasrectec" class="social-link instagram"></a>
+        </div>
+    </footer>  
+</body>
+</html>

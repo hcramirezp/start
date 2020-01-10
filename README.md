@@ -22,3 +22,13 @@ Incluye lo siguiente:
 * En la sección footer se agregan enlaces a las diferentes redes sociales de la empresa (**Twitter**, **Facebook**, **LinkedIn** e **Instagram**) colocando como fondo los íconos correspondientes a cada una de estas redes sociales.
 * Se crea la sección Content en la cual se coloca un título descriptivo de la empresa y una imagen de referencia. Se asigna la clase content a esta sección.
 * Se configuran los estilos para cada uno de los elementos creados en esta página en el archivo *styles.css*.
+---------------------------
+## Versión 1.1
+Creación de la página de registro de usuario nuevo de la aplicación (archivo *register.html*).
+
+Incluye lo siguiente:
+* Se crea la sección Header del sitio y al encabezado de la página se incluye el logo de Start.
+* Se crea una sección para el formulario de registro de usuario, se asigna la clase register.
+* El formulario de registro de usuario incluye tres campos llamados *"Nombre"*, *"Correo"* y *"Contraseña"* y el botón *"Registrarme"*. 
+* En el formulario también aparece un enlace con el texto *"Iniciar sesión"*.
+* Se configuran los estilos para cada uno de los elementos creados en esta página en el archivo *styles.css*.
