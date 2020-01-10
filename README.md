@@ -12,3 +12,13 @@ Incluye lo siguiente:
 * Se creó un menú desplegable, el cual contempla varias opciones para los ítems *"¿Por qué Start?"* y *"Portafolio"* las cuales deben mostrarse cuando el usuario pasa el puntero del mouse sobre estas opciones.
 * Se configuró la opción *"Iniciar sesión"* como un menú desplegable, en el cual se muestran las opciones *"Usuarios"*, *"Clientes"* y *"Aliados"* cuando el usuario pasa el puntero del mouse sobre esta opción.
 * Se configuran los estilos para cada uno de los elementos creados en esta versión en el archivo *styles.css*.
+
+--------------------------
+## Versión 1.0.1
+Construcción del footer de la página principal y contenido base.
+
+Incluye lo siguiente:
+* Se crea la sección footer para la página, que incluye tres enlaces correspondientes a *"Términos de uso"*,   *"Declaración de privacidad"* y *"Centro de ayuda"*. Se asigna la clase footer a esta sección.
+* En la sección footer se agregan enlaces a las diferentes redes sociales de la empresa (**Twitter**, **Facebook**, **LinkedIn** e **Instagram**) colocando como fondo los íconos correspondientes a cada una de estas redes sociales.
+* Se crea la sección Content en la cual se coloca un título descriptivo de la empresa y una imagen de referencia. Se asigna la clase content a esta sección.
+* Se configuran los estilos para cada uno de los elementos creados en esta página en el archivo *styles.css*.
