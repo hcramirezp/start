@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/css/styles.css">
-    <title>Register</title>
+    <title>Login</title>
 </head>
 <body>
 <!-- El encabezado de la página en que se incluye el logo de la empresa. Se asigna la clase header. -->
@@ -46,20 +46,30 @@
                 </li>
             </ul>
         </nav>
-        <p class="registro">Registrarse</p>        
+        <p class="registro">Registrarse</p>          
     </header>
-<!-- Se crea el formulario de registro de usuario, que incluye dos campos llamados "Nombre", "Correo" y "Contraseña" y el botón 
-    "Registrarme". También aparece un enlace con el texto "Iniciar sesión". Se asigna la clase register. -->
-    <section class="register">
-        <section class="register__container">
-            <h2 tabindex="0">Regístro de Usuarios</h2>
-            <form class="register__container--form">
-                <input aria-label="Nombre" class="input" type="text" placeholder="Nombre">
+ <!-- Se crea el formulario de inicio de sesión, que incluye dos campos llamados "Correo" y "Contraseña" y un botón 
+    "Iniciar sesión". También aparece un checkbox con la etiqueta "Recuerdame" y un enlace con el texto "Olvidé 
+    mi conttraseña". Se asigna la clase login. -->
+    <section class="login">
+        <section class="login__container">
+            <h2 tabindex="0">Iniciar sesión</h2>
+            <form class="login__container--form">
                 <input aria-label="Correo" class="input" type="text" placeholder="Correo">
                 <input aria-label="Contraseña" class="input" type="password" placeholder="Contraseña">
-                <button class="button">Registrarme</button>
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" name="" id="cbox1" value="checkbox">Recuerdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
             </form>
-            <p class="register__container--register"><a href="/">Iniciar sesión</a></p>
+            <section class="login__container--social-media">
+                <div><img src="../start/images/google_30.png" alt="google-icon"><a>Inicia sesión con Google</a></div>
+                <div><img src="../start/images/twitter_30.png" alt="twitter-icon"><a>Inicia sesión con Twitter</a></div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="/">Regístrate</a></p>
         </section>
     </section>
 <!-- Se crea un footer para la página, el cual incluye tres enlaces correspondientes a "Términos de uso", "Declaración
