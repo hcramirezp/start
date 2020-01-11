@@ -46,3 +46,13 @@ Incluye lo siguiente:
 * En el formulario también aparece un checkbox con la etiqueta *"Recuerdame"* y un enlace con el texto 
   *"Olvidé mi contraseña"*.
 * Se configuran los estilos para cada uno de los elementos creados en esta página en el archivo *styles.css*.
+
+---------------------------
+## Versión 1.3
+Creación de la página para el mensaje de error 404 (archivo *errorpage.html*).
+
+Incluye lo siguiente:
+* Se crea la sección Header del sitio y al encabezado de la página se incluye el logo de Start.
+* Se crea una sección para el mensaje de error, se asigna la clase errormessage.
+* Se crea la sección footer para la página, que incluye tres enlaces correspondientes a *"Términos de uso"*,   *"Declaración de privacidad"* y *"Centro de ayuda"*. Se asigna la clase footer a esta sección.
+* Se configuran los estilos para cada uno de los elementos creados en esta página en el archivo *styles.css*.
